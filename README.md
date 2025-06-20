@@ -2,7 +2,7 @@
 
 A Streamlit-based web app that classifies restaurant customer reviews as **Positive** or **Negative** using Natural Language Processing and a Multinomial Naive Bayes classifier.
 
-[🚀 Live App]([https://nlp-sentiment-analysis-manish-kumawat.streamlit.app/])
+[🚀 Live App](https://nlp-sentiment-analysis-manish-kumawat.streamlit.app/)  
 [📂 View Code on GitHub](https://github.com/ManishKumawat450/sentiment-analysis-nlp)
 
 ---
@@ -48,3 +48,8 @@ pip install -r requirements.txt
 
 # Run the app
 streamlit run app.py
+
+ Sample Predictions
+"The food was absolutely wonderful!" → ✅ Positive
+
+"Terrible service and cold food." → ❌ Negative
